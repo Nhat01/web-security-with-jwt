@@ -24,11 +24,11 @@ public class InitUserAuthen implements ApplicationRunner {
 		// TODO Auto-generated method stub
 		System.out.println("-------------BAT DAU TAO USER--------------------");
 		k15.k15dcpm03.demo.user.User user = new k15.k15dcpm03.demo.user.User();
-        user.setUsername("hktin");
-        user.setFirstName("Kim Tin");
-        user.setLastName("Hoang");
+        user.setUsername("nhbnhat");
+        user.setFirstName("Bao Nhat");
+        user.setLastName("Nguyen Huynh");
         user.isApproved();
-        user.setEmail("tin@gmail.com");
+        user.setEmail("baonhat2611@gmail.com");
         user.setPassword(passwordEncoder.encode("12345678"));
         //password("{bcrypt}$2y$10$GCbwaDs5NpSBFFItT9aGmuYiSNjdH6lHVUPfqctbIbZTprx3Q7Lfi")
         //user.setPassword("{bcrypt}$2y$10$GCbwaDs5NpSBFFItT9aGmuYiSNjdH6lHVUPfqctbIbZTprx3Q7Lfi");
